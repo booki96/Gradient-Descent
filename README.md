@@ -39,5 +39,4 @@ Implementing Momentum into the gradient descent algorithm in figure 4 achieved c
 | Plain Vanilla |  1177 | 129 |
 | Momentum |    558   |   79 |
 | NAG | 582 |    n/a |
-|:--:| 
-| *Surface plot of the Booth function along with the path taken by Nesterov Accelerated Gradient (NAG), learning rate = 0.01, accuracy = 1e-10* |
+*Comparison of algorithms in converging with different learning rates, degree of accuracy = 1e-10*
