@@ -141,7 +141,7 @@ class gd_cw_2d:
 
 # loss function  
 def fn_loss(x,y):
-    loss = (x+2*y-7)**2 + (2*x+y-5)**2
+    loss = (x+2*y-7)**2 + (2*x+y-5)**2  # booth function
     return loss
 
 # function for calculating gradient
