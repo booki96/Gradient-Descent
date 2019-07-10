@@ -39,6 +39,8 @@ Implementing Momentum into the gradient descent algorithm in figure 4 achieved c
 |----------|:-------------:|------:|
 | Plain Vanilla |  1177 | 129 |
 | Momentum |    558   |   79 |
-| NAG | 582 |    n/a |
+| NAG | 582 |    n/a* |
 
 *Table 1: Comparison of algorithms in converging with different learning rates, degree of accuracy = 1e-10*
+
+Table 1 shows the steps taken to converge by each algorithm for two different learning rates. The larger learning rate achieves faster convergence, but can sometimes cause overshooting the critical point, as is shown by NAG failure to converge*. 
