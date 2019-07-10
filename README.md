@@ -9,8 +9,7 @@ Certain modifications can be made to optimise the plain vanilla gradient descent
 ## Results
 To test the ability of gradient descent to find the global minimum, a Booth function was used which has the following equation: f(x,y)=(x+2y-7)^2+(2x+y-5)^2
 
-![fig1](https://github.com/booki96/Gradient-Descent/blob/master/vanilla.png)
-Figure 1: Surface plot of the Booth function along with the path taken by the plain vanilla gradient descent algorithm, learning rate = 0.01, accuracy = 1e-10
+![fig1](https://github.com/booki96/Gradient-Descent/blob/master/vanilla.png) Figure 1: Surface plot of the Booth function along with the path taken by the plain vanilla gradient descent algorithm, learning rate = 0.01, accuracy = 1e-10
 
 ![fig2](https://github.com/booki96/Gradient-Descent/blob/master/lr%3D.01.png)
 ![fig3](https://github.com/booki96/Gradient-Descent/blob/master/lr%3D.1.png)
