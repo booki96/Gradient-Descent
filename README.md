@@ -6,4 +6,5 @@ Given a function and a starting point somewhere along this function, plain vanil
 ## Variations
 Certain modifications can be made to optimise the plain vanilla gradient descent algorithm. Two such examples include Momentum and Nesterov Accelerated Gradient (NAG). Momentum considers the exponential moving average of past gradients as well as the current gradient being calculated at each iteration. This method has the potential to avoid getting stuck at saddle points since the momentum should carry you over the point. However, it is also susceptible to overshooting the minimum as a result. NAG builds on this further by using projected gradients in its calculations, which involves essentially ‘looking ahead’ to determine whether the gradient is flattening or reversing in direction. This prevents potential oscillations from occurring when computing the gradient path. 
 
-![alt text](https://github.com/booki96/Gradient-Descent/blob/master/vanilla.png)
+![fig1](https://github.com/booki96/Gradient-Descent/blob/master/vanilla.png)
+Blah blah blah
