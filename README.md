@@ -11,33 +11,35 @@ To test the ability of gradient descent to find the global minimum, a Booth func
 
 ![fig1](https://github.com/booki96/Gradient-Descent/blob/master/vanilla.png) 
 |:--:| 
-| *Fig1: Surface plot of the Booth function along with the path taken by the plain vanilla gradient descent algorithm, learning rate = 0.01, accuracy = 1e-10* |
+| *Fig 1: Surface plot of the Booth function along with the path taken by the plain vanilla gradient descent algorithm, learning rate = 0.01, accuracy = 1e-10* |
 
 The surface has been plotted on 10x10 mesh with a starting point chosen as [-8,-8], and the path converges at [1,3]. This is where minimum loss is obtained and, in this case, where the global minimum is located.
 The step sizes were adjusted in order to compare convergence rates. The figures below show that increasing the learning rate (and hence the step size) provides faster convergence. However, the algorithm becomes more prone to overshooting minimum points and failing to converge since it can ‘jump’ past the critical point. On the other hand, decreasing step size provides greater chance of convergence at the expense of computational time.  
 
 ![fig2](https://github.com/booki96/Gradient-Descent/blob/master/lr%3D.01.png)
 |:--:| 
-| *Plain vanilla convergence, learning rate = 0.01, degree of accuracy = 1e-10* |
+| *Fig 2: Plain vanilla convergence, learning rate = 0.01, degree of accuracy = 1e-10* |
 
 ![fig3](https://github.com/booki96/Gradient-Descent/blob/master/lr%3D.1.png)
 |:--:| 
-| *Plain vanilla convergence, learning rate = 0.11, degree of accuracy = 1e-10* |
+| *Fig 3: Plain vanilla convergence, learning rate = 0.11, degree of accuracy = 1e-10* |
 
 Implementing Momentum into the gradient descent algorithm in figure 4 achieved convergence with fewer iterations. However, the path taken seems to be much more oscillatory in nature than the plain vanilla. NAG, shown in figure 5, also converges with fewer iterations than plain vanilla and, in addition, appears to have a smoother descent than Momentum. 
 
 ![fig4](https://github.com/booki96/Gradient-Descent/blob/master/momentum.png)
 |:--:| 
-| *Surface plot of the Booth function along with the path taken by the Momentum algorithm, learning rate = 0.01, accuracy = 1e-10* |
+| *Fig 4: Surface plot of the Booth function along with the path taken by the Momentum algorithm, learning rate = 0.01, accuracy = 1e-10* |
 
 ![fig5](https://github.com/booki96/Gradient-Descent/blob/master/nag.png)
 |:--:| 
-| *Surface plot of the Booth function along with the path taken by Nesterov Accelerated Gradient (NAG), learning rate = 0.01, accuracy = 1e-10* |
+| *Fig 5: Surface plot of the Booth function along with the path taken by Nesterov Accelerated Gradient (NAG), learning rate = 0.01, accuracy = 1e-10* |
 
-              | Algorithm   |      Steps (lr=0.01)      |  Steps (lr=0.1) |
-              |----------|:-------------:|------:|
-              | Plain Vanilla |  1177 | 129 |
-              | Momentum |    558   |   79 |
-              | NAG | 582 |    n/a |
+<center>
+| Algorithm   |      Steps (lr=0.01)      |  Steps (lr=0.1) |
+|----------|:-------------:|------:|
+| Plain Vanilla |  1177 | 129 |
+| Momentum |    558   |   79 |
+| NAG | 582 |    n/a |
+</center>
 
             *Comparison of algorithms in converging with different learning rates, degree of accuracy = 1e-10*
