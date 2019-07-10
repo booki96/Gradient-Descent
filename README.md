@@ -41,5 +41,4 @@ Implementing Momentum into the gradient descent algorithm in figure 4 achieved c
 | Momentum |    558   |   79 |
 | NAG | 582 |    n/a |
 
-
-            *Comparison of algorithms in converging with different learning rates, degree of accuracy = 1e-10*
+*Comparison of algorithms in converging with different learning rates, degree of accuracy = 1e-10*
