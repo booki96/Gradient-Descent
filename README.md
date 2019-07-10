@@ -1,4 +1,4 @@
-# Gradient-Descent
+# Gradient Descent
 ## Intro
 The aim of supervised machine learning algorithms is to best estimate a target function that maps input data onto output variables. In other words, input data is used to produce predictions in the output based on some function. The idea of gradient descent involves minimising the error associated with these predicted and expected outputs, known as the cost function. Therefore, to have an accurate model, it is imperative to have this cost function minimised so that the error value is as low as possible. For a given function, this means finding the minimum value. 
 ## Plain Vanilla Gradient Descent
